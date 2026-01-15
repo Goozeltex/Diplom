@@ -1,0 +1,52 @@
+# LaTeX временные файлы
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+*.auxlock
+
+# Word временные файлы
+~$*.docx
+~$*.doc
+*.tmp
+
+# PDF (если не хотите коммитить скомпилированные PDF)
+# Раскомментируйте следующую строку, если не хотите хранить PDF в репозитории
+# *.pdf
+
+# Python (если используете)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Другие временные файлы
+*.bak
+*.backup
+*.old
